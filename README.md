@@ -67,12 +67,12 @@ An advanced, beginner-friendly **Retrieval-Augmented Generation (RAG)** chatbot 
 
 1. **دستور دانلود پروژه**:
    ```bash
-   !git clone https://github.com/your-username/rag-chatbot.git
-   %cd rag-chatbot
+   !git clone https://github.com/dianatofficial/my-rag-chatbot-3.git
+   %cd my-rag-chatbot-3
    ```
 2. **دستور نصب پیش‌نیازها**:
    ```bash
-   !pip install -r pyproject.toml
+   !pip install .
    ```
 3. **تنظیم فایل تنظیمات (.env)**:
    یک سلول کد جدید بسازید و کد زیر را اجرا کنید:
@@ -105,8 +105,8 @@ An advanced, beginner-friendly **Retrieval-Augmented Generation (RAG)** chatbot 
 کلیدهای `Win + R` را بزنید، `cmd` را تایپ کنید و Enter بزنید. سپس دستورات زیر را وارد کنید:
 
 ```bash
-git clone https://github.com/your-username/rag-chatbot.git
-cd rag-chatbot
+git clone https://github.com/dianatofficial/my-rag-chatbot-3.git
+cd my-rag-chatbot-3
 ```
 
 ### گام ۲: ساخت فایل تنظیمات (.env)
@@ -121,7 +121,7 @@ OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 دستور زیر را اجرا کنید تا تمام کتابخانه‌های مورد نیاز نصب شوند:
 
 ```bash
-pip install -r pyproject.toml
+pip install .
 ```
 
 یا اگر از `uv` استفاده می‌کنید:
@@ -223,12 +223,12 @@ Run the chatbot in the cloud using Kaggle's free computing environment.
 ### Step 5: Execute Notebook Cells
 1. **Clone the repository**:
    ```bash
-   !git clone https://github.com/your-username/rag-chatbot.git
-   %cd rag-chatbot
+   !git clone https://github.com/dianatofficial/my-rag-chatbot-3.git
+   %cd my-rag-chatbot-3
    ```
 2. **Install dependencies**:
    ```bash
-   !pip install -r pyproject.toml
+   !pip install .
    ```
 3. **Create environment file (`.env`)**:
    ```python
@@ -260,8 +260,8 @@ Click the generated `https://xxxx.ngrok-free.app` URL to open the Web UI!
 Open terminal / command prompt and run:
 
 ```bash
-git clone https://github.com/your-username/rag-chatbot.git
-cd rag-chatbot
+git clone https://github.com/dianatofficial/my-rag-chatbot-3.git
+cd my-rag-chatbot-3
 ```
 
 ### Step 2: Configure Environment Variables
@@ -275,7 +275,7 @@ OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 ### Step 3: Install Required Packages
 
 ```bash
-pip install -r pyproject.toml
+pip install .
 ```
 
 Or using `uv`:
