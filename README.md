@@ -10,14 +10,14 @@ An advanced, beginner-friendly **Retrieval-Augmented Generation (RAG)** chatbot 
   - [۱. معرفی پروژه](#۱-معرفی-پروژه)
   - [۲. راهنمای گام‌به‌گام اجرا در Kaggle](#۲-راهنمای-گامبهگام-اجرا-در-kaggle)
   - [۳. راهنمای گام‌به‌گام نصب روی سیستم شخصی (ویندوز / مک / لینوکس)](#۳-راهنمای-گامبهگام-نصب-روی-سیستم-شخصی-ویندوز--مک--لینوکس)
-  - [۴. راهنمای اجرا در محیط VS Code یا Google Antigravity](#۴-راهنمای-اجرا-در-محیط-vs-code-یا-google-antigravity)
+  - [۴. راهنمای اجرا در محیط VS Code](#۴-راهنمای-اجرا-در-محیط-vs-code)
   - [۵. راهنمای اجرا با داکر (Docker)](#۵-راهنمای-اجرا-با-داکر-docker)
   - [۶. نحوه کار با محیط چت‌بات](#۶-نحوه-کار-با-محیط-چتبات)
 - [🇬🇧 Complete English Guide (Step-by-Step)](#-complete-english-guide-step-by-step)
   - [1. Overview](#1-overview)
   - [2. Step-by-Step Kaggle Deployment](#2-step-by-step-kaggle-deployment)
   - [3. Local System Setup Guide](#3-local-system-setup-guide)
-  - [4. Running in VS Code & Google Antigravity IDE](#4-running-in-vs-code--google-antigravity-ide)
+  - [4. Running in VS Code](#4-running-in-vs-code)
   - [5. Docker Setup Guide](#5-docker-setup-guide)
   - [6. How to Use the Chatbot UI](#6-how-to-use-the-chatbot-ui)
 
@@ -132,12 +132,12 @@ uv sync
 
 ---
 
-## ۴. راهنمای اجرا در محیط VS Code یا Google Antigravity
+## ۴. راهنمای اجرا در محیط VS Code
 
-این پروژه کاملاً با **VS Code** و **Google Antigravity IDE** سازگار است. شما به دو روش می‌توانید آن را اجرا کنید:
+این پروژه کاملاً با **Visual Studio Code (VS Code)** سازگار است. شما به دو روش می‌توانید آن را اجرا کنید:
 
-### روش ۱: استفاده از ترمینال داخلی VS Code / Antigravity (پیشنهادی)
-1. محیط **VS Code** یا **Antigravity IDE** را باز کنید.
+### روش ۱: استفاده از ترمینال داخلی VS Code (پیشنهادی)
+1. محیط **VS Code** را باز کنید.
 2. پوشه پروژه را باز کنید (`File ◄ Open Folder`).
 3. ترمینال را باز کنید: کلیدهای ترکیب `Ctrl + ~` (یا `Ctrl + Shift + ~`) را فشار دهید.
 4. در صورت استفاده از محیط مجازی (Virtual Environment)، آن را فعال کنید:
@@ -151,7 +151,7 @@ uv sync
 
 ### روش ۲: اجرای مستقیم با کلید F5 (Run & Debug)
 پروژه شامل فایل پیکربندی اختصاصی `.vscode/launch.json` است:
-1. پروژه را در VS Code یا Antigravity باز کنید.
+1. پروژه را در VS Code باز کنید.
 2. کلید **`F5`** را روی کیبورد فشار دهید (یا از منوی سمت چپ به بخش **Run & Debug** رفته و روی دکمه سبز رنگ **Run RAG Chatbot** کلیک کنید).
 3. برنامه به طور خودکار اجرا شده و لینک آدرس وب در ترمینال نمایش داده می‌شود.
 
@@ -185,7 +185,7 @@ docker compose up --build
 
 # 🇬🇧 Complete English Guide (Step-by-Step)
 
-This guide provides absolute beginners with clear, step-by-step instructions to get the RAG Chatbot running on Kaggle, a local computer, VS Code / Antigravity IDE, or Docker.
+This guide provides absolute beginners with clear, step-by-step instructions to get the RAG Chatbot running on Kaggle, a local computer, VS Code, or Docker.
 
 ---
 
@@ -286,12 +286,12 @@ uv sync
 
 ---
 
-## 4. Running in VS Code & Google Antigravity IDE
+## 4. Running in VS Code
 
-This repository is fully optimized for **Visual Studio Code** and **Google Antigravity IDE**.
+This repository is fully optimized for **Visual Studio Code**.
 
 ### Option A: Via Integrated Terminal (Recommended)
-1. Open the project folder in VS Code or Antigravity IDE (`File ◄ Open Folder`).
+1. Open the project folder in VS Code (`File ◄ Open Folder`).
 2. Open the integrated terminal (`Ctrl + ~`).
 3. Activate your virtual environment if applicable:
    - **Windows**: `.\.venv\Scripts\Activate.ps1`
